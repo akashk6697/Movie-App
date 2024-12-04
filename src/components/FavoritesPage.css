@@ -1,0 +1,19 @@
+.favorites-page {
+    padding: 20px;
+  }
+  
+  .favorite-movies-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .favorite-movie-card {
+    text-align: center;
+  }
+  
+  .favorite-movie-poster {
+    width: 100%;
+    border-radius: 10px;
+  }
+  

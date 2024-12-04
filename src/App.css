@@ -1,0 +1,186 @@
+
+h1{
+  text-align: center;
+  background: red;
+  color: white;
+}/* Container for all movie cards */
+.movies-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Grid layout for cards */
+  gap: 20px; /* Space between cards */
+  padding: 20px;
+}
+
+/* Individual movie card styling */
+.movie-card {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.movie-card:hover {
+  transform: translateY(-10px); /* Card moves up slightly on hover */
+}
+
+/* Movie poster (image) styling */
+.movie-poster {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+/* Movie information container */
+.movie-info {
+  padding: 15px;
+  text-align: center;
+}
+
+/* Title of the movie */
+.movie-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Movie overview (description) styling */
+.movie-overview {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Movie rating styling */
+.movie-rating {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+/* Release date styling */
+.movie-release-date {
+  font-size: 12px;
+  color: #aaa;
+}
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+  background-color: red;
+  padding: 10px 10px;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Align left-side items */
+.left-side {
+  display: flex;
+  align-items: center;
+}
+
+/* Navbar Brand (MovieApp) */
+.nav-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/* Navbar Links (Favorites) */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 0 15px;
+  font-size: 24px;
+}
+
+/* Search Bar Styling */
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+/* Increase search input field width */
+.search-input {
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 300px;  /* Increased width for search bar */
+}
+
+/* Search Button */
+.search-btn {
+  padding: 6px 12px;
+  margin-left: 10px;
+  border: none;
+  background-color: #0400ff8c;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: #0056b3;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.pagination-btn {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: auto;
+  transition: background-color 0.3s ease;
+}
+
+.pagination-btn:disabled {
+  background-color: #c0c0c0;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  font-size: 16px;
+}
+
+
+.movie-list {
+  padding: 20px;
+}
+
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.movie-card {
+  text-align: center;
+}
+
+.movie-poster {
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+
+
+
